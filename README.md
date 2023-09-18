@@ -6,7 +6,7 @@ A nim version of Cowsay that generates ASCII art pictures + Weather
 Nim version: `>= 2.0`
 
 ```
-nim c -d:release --opt:speed -r ./main.nim
+nim c -d:release -d:ssl --opt:speed -r ./main.nim
 ```
 
 ## Build
